@@ -8,6 +8,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+
 } from "react-icons/di";
 import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
 
@@ -17,6 +18,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -44,6 +46,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
+
     </Row>
   );
 }
