@@ -4,11 +4,11 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
+  const uri = "";
   const [spojRank, upadteSpojRank] = useState(0);
   const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
@@ -33,50 +33,77 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href="https://drive.google.com/file/d/1xOEgJsMVLDea_bLbfh2JDnaENzKv8nnP/view" target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
+          <h3 className="resume-title">Startups & Companies</h3>
+            <Resumecontent
+              title="CEO At UTech  Digital Education[Online Coding School For kids]"
+              content={[
+                "An online coding school which will teach you 60+ latest specializations include React Js , React Native,Ai , Ml and Much more under the age of 15",
+              ]}
+            />
+                
+            <Resumecontent
+              title="CEO At Asad Academy [Online Home Schooling Academy]"
+              content={[
+                "Asad Academy is an online schooling platform that redefines learning to promote and enhance excellence by empowering students and educators, to thrive in a globally networked society, on a completely customized approach. No matter what you’re looking for, Asad Academy is ready to customize a program that works best for your child.",
+              ]}
+            />
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend Developer Intern [Flash Tech]"
-              date="July 2021 - September 2021"
+              title="Frontend Developer Intern [Lambda Theeta Software House]"
+              date="Dec 2019 - September 2020"
               content={[
-                "Worked on the development of an E-commerce website",
-                "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
-                " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-                "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
-                "Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on an everyday basis.",
+                "Worked on the development of an Routing Software website",
+                
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+                     <Resumecontent
+              title="Project Developer Intern [Instrumentation Center, Ned University]"
+              date="Dec 2019 - September 2020"
               content={[
-                "Worked on building front-end UI design using HTML5, CSS3, JavaScript jQuery, and building API routes using Node and express.js.",
+                "Worked as a 3D designer",
+                "Worked as an Arduino Programmer",
+                "Worked as a Machine Learning Projects Developer",
+               
+                
               ]}
             />
+         
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="Electronics Engineering [NED University, Karachi]"
+              date="2017 - 2021"
+              content={[`(CGPA: 3.6)`]}
             />
-
-            <h3 className="resume-title">Publications</h3>
+                  <Resumecontent
+              title="Intermediate [Govt Dehli Science College, Karachi]"
+              date="2016 - 2027"
+              content={[`(Grade: A1)`]}
+            />
+     <Resumecontent
+              title="Matric From : The Foundataion Grammer School"
+              date="2016"
+              content={[`(Grade: A)`]}
+            />
+            <h3 className="resume-title">Final Year Project</h3>
             <Resumecontent
-              title=""
+              title="SENTIMENTS ANALYSIS"
               content={[
-                "Article entitled An Overlapping Sliding Window and Combined Feature based Emotion Recognition System for EEG Signals publised in Emerald Publication;10.1108/ACI-05-2021-0130",
+                "Sentiment Analysis Using Automated Facial Recognition with Jetson nana and web app using React js",
               ]}
             />
+                   
 
-            <h3 className="resume-title">Ranks and Achivements</h3>
+
+            <h3 className="resume-title">Achivements & Certificates</h3>
             <Resumecontent
               title=""
               content={[
@@ -85,11 +112,12 @@ function Resume() {
                 "Top Performer in Code-Break 1.0",
                 "Participant in Hack-A-Bit 2019",
               ]}
+             
             />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href="https://drive.google.com/file/d/1xOEgJsMVLDea_bLbfh2JDnaENzKv8nnP/view" target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>

@@ -14,7 +14,8 @@ function ResumeContent(props) {
           <li key={index}> ‣ {value}</li>
         ))}
       </ul>
-    </div>
+   
+       </div>
   );
 }
 
