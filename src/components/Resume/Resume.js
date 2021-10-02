@@ -97,13 +97,13 @@ function Resume() {
             <Resumecontent
               title="SENTIMENTS ANALYSIS"
               content={[
-                "Sentiment Analysis Using Automated Facial Recognition with Jetson nana and web app using React js",
+                "Sentiment Analysis Using Automated Facial Recognition with Jetson nano and web app using React js",
               ]}
             />
                    
 
 
-            <h3 className="resume-title">Achivements & Certificates</h3>
+            {/* <h3 className="resume-title">Achivements & Certificates</h3>
             <Resumecontent
               title=""
               content={[
@@ -113,7 +113,7 @@ function Resume() {
                 "Participant in Hack-A-Bit 2019",
               ]}
              
-            />
+            /> */}
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
