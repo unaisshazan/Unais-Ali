@@ -147,7 +147,7 @@ function Projects() {
               isBlog={false}
               title="Human Pose Detection"
               description="Pose Estimation using python"
-              link="https://github.com/unaisshazan/human-pose-detection-using-cocoapi-"
+              link="https://github.com/unaisshazan/human-pose-detection-using-cocoapi"
             />
           </Col>
           <Col md={4} className="project-card">
