@@ -54,7 +54,29 @@ function Resume() {
                 "Asad Academy is an online schooling platform that redefines learning to promote and enhance excellence by empowering students and educators, to thrive in a globally networked society, on a completely customized approach. No matter what you’re looking for, Asad Academy is ready to customize a program that works best for your child.",
               ]}
             />
+                <Resumecontent
+              title="Founder of OUTLIERIFY [Next Generation Education system]"
+              content={[
+                "Entreprenuership learning school at young age with practical business,softskills and mentorship",
+              ]}
+            />
             <h3 className="resume-title">Experience</h3>
+            <Resumecontent
+              title="Lecturer [Ziauddin University]"
+              date="Dec 2021 - Present"
+              content={[
+                "BEE (Basic Electrical Engineering) Lecturer at Ziauddin University",
+                
+              ]}
+            />
+                <Resumecontent
+              title="Mobile & Web Developer [SBE Shipping Lines]"
+              date="Sept 2021 - Present"
+              content={[
+                "SBE Shipping Lines is Dubai base cargo shipping company",
+                
+              ]}
+            />
             <Resumecontent
               title="Frontend Developer Intern [Lambda Theeta Software House]"
               date="Dec 2019 - September 2020"
