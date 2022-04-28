@@ -65,6 +65,28 @@ function Certificates() {
 							<h5>
 								{" "}
 								<span className="purple">
+								Build a Website using ReactJs and Contentful
+									<br />
+								</span>
+							</h5>
+							<strong>
+								<p>
+									ORGANIZATION :{" "}
+									<span className="purple">
+                                   Udemy
+										<br />
+									</span>
+									DATE : <span className="purple">April 2022</span> <br />
+								</p>{" "}
+							</strong>
+							<Button href="https://udemy-certificate.s3.amazonaws.com/image/UC-f712a7b1-58e2-482c-b52c-72ea2c251676.jpg">
+								Click Here To View
+							</Button>
+						</Col>
+						<Col md={6} className="project-card" style={{ color: "white" }}>
+							<h5>
+								{" "}
+								<span className="purple">
                                 Front-End Web Development with React
 									<br />
 								</span>
