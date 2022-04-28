@@ -83,6 +83,28 @@ function Certificates() {
 								Click Here To View
 							</Button>
 						</Col>
+						<Col md={6} className="project-card" style={{ color: "white" }}>
+							<h5>
+								{" "}
+								<span className="purple">
+								AWS Fundamentals Specialization
+									<br />
+								</span>
+							</h5>
+							<strong>
+								<p>
+									ORGANIZATION :{" "}
+									<span className="purple">
+                                 AWS
+										<br />
+									</span>
+									DATE : <span className="purple">April 2022</span> <br />
+								</p>{" "}
+							</strong>
+							<Button href="https://coursera.org/share/9827d0f383ec06b04d65556b8e03d011">
+								Click Here To View
+							</Button>
+						</Col>
 
 						<Col md={6} className="project-card" style={{ color: "white" }}>
 							<h5>
