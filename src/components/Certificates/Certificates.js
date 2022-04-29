@@ -154,6 +154,28 @@ function Certificates() {
 							<h5>
 								{" "}
 								<span className="purple">
+								Server-side Development with NodeJS, Express and MongoDB
+									<br />
+								</span>
+							</h5>
+							<strong>
+								<p>
+									ORGANIZATION :{" "}
+									<span className="purple">
+                                   Coursera
+										<br />
+									</span>
+									DATE : <span className="purple">April 2022</span> <br />
+								</p>{" "}
+							</strong>
+							<Button href="https://coursera.org/share/588a4e41fa9b6c43d20f4a14ea49b935">
+								Click Here To View
+							</Button>
+						</Col>
+						<Col md={6} className="project-card" style={{ color: "white" }}>
+							<h5>
+								{" "}
+								<span className="purple">
                                 Front-End Web Development with React
 									<br />
 								</span>
