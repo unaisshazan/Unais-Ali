@@ -18,29 +18,7 @@ function Certificates() {
 					<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 						{/* done */}
 						<Col md={12} className="project-card" style={{ color: "white" }}>
-							<h5>
-								{" "}
-								<span className="purple">
-									AWS Fundamentals: Going Cloud-Native
-									<br />
-								</span>
-							</h5>
-							<strong>
-								<p>
-									ORGANIZATION :{" "}
-									<span className="purple">
-										AMAZON
-										<br />
-									</span>
-									DATE : <span className="purple">AUGUST 2020</span> <br />
-								</p>{" "}
-							</strong>
-							<Button href="https://coursera.org/share/25e9ff83554b570b2b20a58b18b23b70">
-								Click Here To View
-							</Button>
-						</Col>
-						<Col md={6} className="project-card" style={{ color: "white" }}>
-							<h5>
+						<h5>
 								{" "}
 								<span className="purple">
 								AWS Fundamentals: Migrating to the Cloud
@@ -60,7 +38,9 @@ function Certificates() {
 							<Button href="https://coursera.org/share/d0310d399ce9c591a7f7b393835d75cd">
 								Click Here To View
 							</Button>
+						
 						</Col>
+						
 						<Col md={6} className="project-card" style={{ color: "white" }}>
 							<h5>
 								{" "}
@@ -106,28 +86,7 @@ function Certificates() {
 							</Button>
 						</Col>
 
-						<Col md={6} className="project-card" style={{ color: "white" }}>
-							<h5>
-								{" "}
-								<span className="purple">
-                                Crash Course on Python
-									<br />
-								</span>
-							</h5>
-							<strong>
-								<p>
-									ORGANIZATION :{" "}
-									<span className="purple">
-                                    GOOGLE
-										<br />
-									</span>
-									DATE : <span className="purple">AUGUST 2020</span> <br />
-								</p>{" "}
-							</strong>
-							<Button href="https://www.coursera.org/account/accomplishments/certificate/B4V57KE8XQM9">
-								Click Here To View
-							</Button>
-						</Col>
+					
 						<Col md={6} className="project-card" style={{ color: "white" }}>
 							<h5>
 								{" "}
@@ -176,6 +135,72 @@ function Certificates() {
 							<h5>
 								{" "}
 								<span className="purple">
+								Front-End Web UI Frameworks and Tools: Bootstrap 4
+									<br />
+								</span>
+							</h5>
+							<strong>
+								<p>
+									ORGANIZATION :{" "}
+									<span className="purple">
+                                   Coursera
+										<br />
+									</span>
+									DATE : <span className="purple">April 2022</span> <br />
+								</p>{" "}
+							</strong>
+							<Button href="https://coursera.org/share/05664f1ed20d05ab9bf43998de5ef67b">
+								Click Here To View
+							</Button>
+						</Col>
+						<Col md={6} className="project-card" style={{ color: "white" }}>
+						<h5>
+								{" "}
+								<span className="purple">
+									AWS Fundamentals: Going Cloud-Native
+									<br />
+								</span>
+							</h5>
+							<strong>
+								<p>
+									ORGANIZATION :{" "}
+									<span className="purple">
+										AMAZON
+										<br />
+									</span>
+									DATE : <span className="purple">AUGUST 2020</span> <br />
+								</p>{" "}
+							</strong>
+							<Button href="https://coursera.org/share/25e9ff83554b570b2b20a58b18b23b70">
+								Click Here To View
+							</Button>
+						</Col>
+						<Col md={6} className="project-card" style={{ color: "white" }}>
+							<h5>
+								{" "}
+								<span className="purple">
+                                Crash Course on Python
+									<br />
+								</span>
+							</h5>
+							<strong>
+								<p>
+									ORGANIZATION :{" "}
+									<span className="purple">
+                                    GOOGLE
+										<br />
+									</span>
+									DATE : <span className="purple">AUGUST 2020</span> <br />
+								</p>{" "}
+							</strong>
+							<Button href="https://www.coursera.org/account/accomplishments/certificate/B4V57KE8XQM9">
+								Click Here To View
+							</Button>
+						</Col>
+						<Col md={6} className="project-card" style={{ color: "white" }}>
+							<h5>
+								{" "}
+								<span className="purple">
                                 Front-End Web Development with React
 									<br />
 								</span>
@@ -194,6 +219,7 @@ function Certificates() {
 								Click Here To View
 							</Button>
 						</Col>
+				
 						<Col md={6} className="project-card" style={{ color: "white" }}>
 							<h5>
 								{" "}
