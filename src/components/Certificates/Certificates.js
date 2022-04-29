@@ -21,7 +21,7 @@ function Certificates() {
 						<h5>
 								{" "}
 								<span className="purple">
-								AWS Fundamentals: Migrating to the Cloud
+								AWS Fundamentals Specialization
 									<br />
 								</span>
 							</h5>
@@ -35,9 +35,10 @@ function Certificates() {
 									DATE : <span className="purple">April 2022</span> <br />
 								</p>{" "}
 							</strong>
-							<Button href="https://coursera.org/share/d0310d399ce9c591a7f7b393835d75cd">
+							<Button href="https://coursera.org/share/9827d0f383ec06b04d65556b8e03d011">
 								Click Here To View
 							</Button>
+					
 						
 						</Col>
 						
@@ -64,10 +65,10 @@ function Certificates() {
 							</Button>
 						</Col>
 						<Col md={6} className="project-card" style={{ color: "white" }}>
-							<h5>
+						<h5>
 								{" "}
 								<span className="purple">
-								AWS Fundamentals Specialization
+								AWS Fundamentals: Migrating to the Cloud
 									<br />
 								</span>
 							</h5>
@@ -81,9 +82,11 @@ function Certificates() {
 									DATE : <span className="purple">April 2022</span> <br />
 								</p>{" "}
 							</strong>
-							<Button href="https://coursera.org/share/9827d0f383ec06b04d65556b8e03d011">
+							<Button href="https://coursera.org/share/d0310d399ce9c591a7f7b393835d75cd">
 								Click Here To View
-							</Button>
+							</Button>	
+
+
 						</Col>
 
 					
