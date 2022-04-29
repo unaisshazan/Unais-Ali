@@ -28,7 +28,7 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src="https://i.ibb.co/1st6Df4/IMG-0837-1-ccexpress.png" alt="home pic" className="img-fluid" />
+              <img  src="https://i.ibb.co/1st6Df4/IMG-0837-1-ccexpress.png" alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>
