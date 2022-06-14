@@ -45,7 +45,7 @@ function Projects() {
 {/* done */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://smallseotools.com/asets/ogimages/ocr.png"
+              imgPath="https://i.ibb.co/DfMn3DM/6-D9-CE2-D9-A2-D4-4378-804-F-8188-FD72521-B.png"
               isBlog={false}
               title="IMAGE TO TEXT"
               description="The IMAGE TO TEXT project basically content images having text and extract text from the images"
