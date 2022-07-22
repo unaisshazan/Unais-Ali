@@ -107,7 +107,7 @@ function Resume() {
             />
                   <Resumecontent
               title="Intermediate [Govt Dehli Science College, Karachi]"
-              date="2016 - 2027"
+              date="2016 - 2017"
               content={[`(Grade: A1)`]}
             />
      <Resumecontent
